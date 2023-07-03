@@ -14,22 +14,23 @@
 		public function setup() {
 			// constructor code
 			
-			addChild( FONDO_new );
-			addChild ( PISO_new );
+			addChild(FONDO_new);
+			addChild (PISO_new);
 			addChild (PROTAGONISTA_new);
 			addChild (ANTAGONISTA_new);
 			
-			FONDO_new.y = 0;S
+			
+			FONDO_new.y = 0;
 			FONDO_new.x = 0;
 			
 			PISO_new.y = 350;
 			PISO_new.x = 0;
 			
-			PROTAGONISTA_new.y = 350;
-			PROTAGONISTA_new.x = 280;
+			PROTAGONISTA_new.y = 325;
+			PROTAGONISTA_new.x = 100;
 			
 			ANTAGONISTA_new.y = 50;
-			ANTAGONISTA_new.x = 320;
+			ANTAGONISTA_new.x = 200;
 		}
 	}
 	
